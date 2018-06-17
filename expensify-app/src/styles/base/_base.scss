@@ -1,8 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
-  // we reduce the font-size, so 1rem matches 10px
-  font-size: 55.5%;
-  // font-size: 62.5%;
-  // line-height: normal; 
+  font-size: 62.5%;
 }
 
 body {
@@ -16,4 +17,8 @@ button {
 
 button:disabled {
   cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
 }
